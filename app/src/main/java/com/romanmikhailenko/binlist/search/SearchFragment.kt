@@ -1,4 +1,4 @@
-package com.romanmikhailenko.binlist
+package com.romanmikhailenko.binlist.search
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.binlistapp.R
 
-class MainFragment : Fragment() {
+class SearchFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,7 +15,7 @@ class MainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main, container, false)
+        return inflater.inflate(R.layout.fragment_search, container, false)
     }
 
 }
