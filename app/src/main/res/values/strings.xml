@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BinList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="enter_bin">Enter the first digits of a card number (BIN/IIN)</string>
 </resources>

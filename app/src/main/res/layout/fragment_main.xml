@@ -1,0 +1,38 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.romanmikhailenko.binlist.MainFragment">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etBin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginHorizontal="15dp"
+        android:text=""
+        android:hint="@string/enter_bin"
+        android:gravity="center"
+        android:inputType="number"
+        android:background=""/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etBin"
+        android:layout_marginTop="100dp"
+        android:background="@color/purple_700"
+        android:text="@string/search"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
