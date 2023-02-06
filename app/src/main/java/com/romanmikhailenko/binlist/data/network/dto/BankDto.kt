@@ -1,4 +1,4 @@
-package com.romanmikhailenko.binlist.network.dto
+package com.romanmikhailenko.binlist.data.network.dto
 
 data class BankDto (
     val city: String,
